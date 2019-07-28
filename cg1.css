@@ -1,0 +1,62 @@
+body{
+    background-color:black;
+    margin:0;
+    padding:0;
+}
+.square{
+    width: 30%;
+    padding-bottom:30%;
+    float:left;
+    margin: 1.66%;
+    border-radius: 6%;
+}
+#container{
+     margin: 0 auto;
+     max-width:600px;
+}
+.game{
+    padding:2%;
+    text-align: center;
+    color:black;
+    font-size: 60px;
+    background-color:white;
+    border-bottom:yellow solid 4px;
+}
+.information{
+    padding:10px;
+    background-color:lightblue;
+    text-align: center;
+    border-bottom:yellow solid 4px;
+}
+#message{
+    font-weight: bold;
+    color:red;
+    font-size: 20px;
+
+}
+#leveleasy{
+    border: none;
+    position: relative;
+    left:10%;
+    font-size: 20px;
+}
+
+.selected{
+    background: blue;
+}
+#levelhard{
+    border: none;
+    position: relative;
+    left:11%;
+    font-size: 20px;
+}
+#playagain{
+    background: red;
+    border: none;
+    position: relative;
+    right:20%;
+    font-size: 20px;
+    border-radius: 0.5em;
+    letter-spacing: 0.1em;
+    text-align: center;
+}
